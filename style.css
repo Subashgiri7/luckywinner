@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  #wheel {
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .wheel-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+  }
+  
+  .pin {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  #name-input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0078d7;
+    color: white;
+  }
+  
+  #secret-btn {
+    display: none; /* Secret button initially hidden */
+    background: red;
+    color: white;
+  }
+  
+  #winner-display {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
